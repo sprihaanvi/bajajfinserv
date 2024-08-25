@@ -30,7 +30,7 @@ const App = () => {
       const jsonObject = JSON.parse(jsonInput);
 
       // Make API call
-      const response = await axios.post('http://localhost:8080/bfhl', jsonObject);
+      const response = await axios.post('https://bajajfinserv-cyk8.onrender.com/bfhl', jsonObject);
       console.log(response);
       // Set response data
       setResponseData(response.data);
