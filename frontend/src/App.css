@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+textarea {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+pre {
+  text-align: left;
+  margin-top: 20px;
+}
